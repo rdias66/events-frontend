@@ -2,9 +2,10 @@
 import TextsEN from '@/data/text-en'
 import TextsPTBR from '@/data/text-ptbr'
 import { useState } from 'react'
-import { Operations } from '@/pages/operations'
+import { Home } from '@/app/Home/page'
 let pageTexts = TextsPTBR()
-export default function App() {
+
+export default function Page() {
   const [languageController, setLanguageController] = useState(false)
   const setLanguage = () => {
     setLanguageController(!languageController)
@@ -14,7 +15,7 @@ export default function App() {
   return (
     <div>
       <button onClick={setLanguage}>Toggle Language</button>
-      <Operations LanguageTextData={pageTexts.operationsText} />
+      <Home LanguageTextData={pageTexts.homeText} />
     </div>
   )
 }

@@ -2,10 +2,10 @@ const TextsPTBR = () => {
   const operationsText = {
     content: 'Essa e a pagina principal',
   }
-  const infoText = {
+  const homeText = {
     content: 'This is main page',
   }
-  return { operationsText, infoText }
+  return { operationsText, homeText }
 }
 
 export default TextsPTBR
