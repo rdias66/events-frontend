@@ -1,7 +1,7 @@
-export function Operations({ LanguageTextData }: any) {
+export default function Operations({ LanguageTextData }: any) {
   return (
     <div>
-      <h1>{LanguageTextData.content} </h1>
+      <h1>this is operations</h1>
     </div>
   )
 }

@@ -1,9 +1,9 @@
 import { Button } from '@/components/ui/button'
 
-export function Home({ LanguageTextData }: any) {
+export default function Home({ LanguageTextData }: any) {
   return (
     <div>
-      <h1>{LanguageTextData.content} </h1>
+      <h1>this is home </h1>
       <Button>Redirect to operations</Button>
     </div>
   )
