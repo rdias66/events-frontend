@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import Events from '@/app/operations/events'
 
 export default function Operations({ LanguageTextData }: any) {
   return (
@@ -8,6 +9,7 @@ export default function Operations({ LanguageTextData }: any) {
       <Link href="/">
         <Button>Go to home</Button>
       </Link>
+      <Events />
     </div>
   )
 }
