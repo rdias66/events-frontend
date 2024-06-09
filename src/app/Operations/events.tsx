@@ -8,7 +8,7 @@ const eventSchema = z.object({
   category: z.string().min(1, { message: 'Category is required' }),
   content: z
     .string()
-    .min(1, { message: 'Content is required' })
+    .min(8, { message: 'Content is required' })
     .max(100, { message: 'Content must be at most 100 characters' }),
 })
 
