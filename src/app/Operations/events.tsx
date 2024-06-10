@@ -29,7 +29,7 @@ const Events: React.FC = () => {
 
   return (
     <div>
-      <h1>Event Form</h1>
+      <h1>Event Creation Form</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>Category:</label>
